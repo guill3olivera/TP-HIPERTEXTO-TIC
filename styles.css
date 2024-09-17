@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom, #f3f4f6, #e5e7eb);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #1f2937;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #4b5563;
+    font-size: 1.25rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #6b7280;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.icon.brain-circuit::before {
+    content: "🧠";
+}
+
+.icon.rocket::before {
+    content: "🚀";
+}
+
+.icon.book-open::before {
+    content: "📖";
+}
